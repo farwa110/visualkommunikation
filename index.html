@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="da" data-theme="dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Farwa – Multimediedesigner</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Playfair+Display:wght@600;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+
+        <header class="top">
+            <button class="theme" id="theme" type="button" aria-pressed="false">
+                Lys tilstand
+            </button>
+        </header>
+
+        <div class="intro-with-photo">
+            <!-- Heading aur paragraph ek hi column mein -->
+            <div class="intro-content">
+                <h1>Farwa</h1>
+
+                <p class="role">
+                    Multimediedesigner · Visuel kommunikation · Admin og webstøtte
+                </p>
+
+                <p class="intro">
+                    Jeg designer med empati for brugeren. Jeg starter med
+                    målgrupperesearch for at forstå folks behov og frustrationer,
+                    og finder løsninger, der gør det nemt at komme videre. Derfra
+                    udvikler jeg konceptet og laver design og layout til websites
+                    og visuel kommunikation, der skaber opmærksomhed og føles
+                    tydelig, enkel og venlig. Jeg er serviceminded, og jeg arbejder
+                    på både dansk og engelsk.
+                </p>
+            </div>
+
+            <img class="intro-portrait" src="assets/designer.png" alt="Portræt af Farwa Rizvi">
+        </div>
+
+
+
+        <section id="social">
+            <h2>Indhold til <span class="accent">sociale medier.</span></h2>
+            <p class="lead">Røde Kors Butik Herlev. Reels, stories og opslag, der skal få flere frivillige, lavet i
+                Canva og
+                CapCut.</p>
+
+            <!-- VIDEOS: phone mockups -->
+            <h3 class="row-title">Reels &amp; stories</h3>
+
+
+            <div class="phones">
+
+                <button type="button" class="phone reveal" data-open data-type="video"
+                    data-src="assets/rodkors-blomster.mp4" data-link="#"
+                    data-text="En blomst, der først blomstrer, når den får vand, er metafor for frivillighed. Små handlinger skaber empati og opmuntrer nye frivillige til at melde sig hos Røde Kors.">
+                    <span class="phone-body">
+                        <span class="phone-notch"></span>
+                        <video src poster="assets/blomster-cover.png" playsinline preload="metadata">
+                        </video>
+                        <span class="phone-play"></span>
+                    </span>
+                    <span class="cap">
+                        <small>Video · Koncept</small>
+                        <strong>Blomster</strong>
+                    </span>
+                </button>
+
+                <button type="button" class="phone reveal" data-open data-type="video"
+                    data-src="assets/rodkorsbutik-tur.mp4" data-link="#"
+                    data-text="En rundtur i Røde Kors Butik Herlev, der viser stemningen, varerne og de frivillige. Gør butikken nærværende, så flere får lyst til at kigge forbi.">
+                    <span class="phone-body">
+                        <span class="phone-notch"></span>
+                        <video src poster="assets/butik-cover.png" playsinline preload="metadata">
+                        </video>
+                        <span class="phone-play"></span>
+                    </span>
+                    <span class="cap">
+                        <small>Video · Koncept</small>
+                        <strong>Butik tour</strong>
+                    </span>
+                </button>
+
+                <button type="button" class="phone reveal" data-open data-type="video"
+                    data-src="assets/story-donation.mp4" data-link="#"
+                    data-text="En kort story, der gør det nemt og naturligt at donere. Tøj og ting, man ikke bruger mere, kan få nyt liv og gøre en forskel for andre.">
+                    <span class="phone-body">
+                        <span class="phone-notch"></span>
+                        <video src poster="assets/donation-cover.png" playsinline preload="metadata">
+                        </video>
+                        <span class="phone-play"></span>
+                    </span>
+                    <span class="cap">
+                        <small>Video · Koncept</small>
+                        <strong>Donation story</strong>
+                    </span>
+                </button>
+
+            </div>
+
+            <!-- POSTS: swipe carousel -->
+            <h3 class="row-title">Opslag &amp; karrusel</h3>
+            <div class="posts">
+
+                <button type="button" class="post reveal" data-open data-type="image" data-src="assets/manifest.png"
+                    data-link="https://canva.link/by5v4k3786slbck"
+                    data-text="En swipe-karrusel, der præsenterer Røde Kors' 7 principper. Hvert slide har ét princip med en enkel illustration.">
+                    <img src="assets/manifest.png" alt="Røde Kors manifest" loading="lazy">
+                    <span class="post-cap"><small>Karrusel</small><strong>Røde Kors manifest</strong></span>
+                </button>
+
+                <button type="button" class="post reveal" data-open data-type="image" data-src="assets/sammen-one.png"
+                    data-link="https://canva.link/0hwcr0l6y3jauq5"
+                    data-text="Opslag nr. 1. Frivillige i røde forklæder og et stort hjerte opfordrer folk til at blive frivillige i butikken.">
+                    <img src="assets/sammen-one.png" alt="Sammen kan vi gøre en forskel" loading="lazy">
+                    <span class="post-cap"><small>Opslag 1</small><strong>Sammen kan vi gøre en forskel</strong></span>
+                </button>
+
+                <button type="button" class="post reveal" data-open data-type="image" data-src="assets/hello.png"
+                    data-link="https://canva.link/efbrh7u552vt1wi"
+                    data-text="Opslag, der inviterer nye frivillige til at blive teamledere i Røde Kors Butik Herlev.">
+                    <img src="assets/hello.png" alt="Frivillig teamleder">
+                    <span class="post-cap"><small>Opslag</small><strong>Frivillig teamleder</strong></span>
+                </button>
+
+                <button type="button" class="post reveal" data-open data-type="image" data-src="assets/empati-one.png"
+                    data-link="#"
+                    data-text="Opslag nr. 3. En enkel stregtegning, der skaber empati og lægger op til at dele opslaget.">
+                    <img src="assets/empati-one.png" alt="Empati begynder med at se hinanden" loading="lazy">
+                    <span class="post-cap"><small>Opslag 3</small><strong>Empati begynder med at se
+                            hinanden</strong></span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Popup: put once, right before </main> -->
+        <div class="lightbox" id="lightbox" hidden>
+            <div class="lb-inner">
+                <button type="button" class="lb-close" aria-label="Luk">×</button>
+                <div class="lb-media"></div>
+                <p class="lb-text"></p>
+                <a class="lb-link" target="_blank" rel="noopener">Åbn i Canva →</a>
+            </div>
+        </div>
+
+        <section id="cases">
+            <h2>Cases, der viser <span class="accent">strategi i praksis.</span></h2>
+            <p class="lead">Et udvalg af projekter, hvor jeg har arbejdet med research, koncept, design og layout.</p>
+            <div class="cases">
+
+                <a class="case reveal" href="https://digital-marketingprofile.vercel.app/cases/coming-up"
+                    target="_blank" rel="noopener">
+                    <span class="tag-line">SoMe-research · Konceptudvikling</span>
+                    <span class="num" aria-hidden="true">01</span>
+                    <h3>Coming Up</h3>
+                    <p class="sub2">Holbæk Kommunes ungdomsmusikklub</p>
+                    <p>Målgrupperesearch, SoMe-spørgeskema, platformsanalyse, konceptudvikling og visuel
+                        indholdsretning.</p>
+                    <span class="more">Se case
+                        <span class="go" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+                                stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14M13 6l6 6-6 6" />
+                            </svg>
+                        </span>
+                    </span>
+                </a>
+
+                <a class="case reveal" href="https://digital-marketingprofile.vercel.app/cases/atelier" target="_blank"
+                    rel="noopener">
+                    <span class="tag-line">UX/UI · Branding · Indholdsproduktion</span>
+                    <span class="num" aria-hidden="true">02</span>
+                    <h3>Atelier</h3>
+                    <p class="sub2">Webdesign og visuel retning</p>
+                    <p>Designet og udviklet en luksusmodehjemmeside med en stærk visuel identitet og selvproduceret
+                        indhold.</p>
+                    <span class="more">Se case
+                        <span class="go" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+                                stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14M13 6l6 6-6 6" />
+                            </svg>
+                        </span>
+                    </span>
+                </a>
+
+                <a class="case reveal" href="https://digital-marketingprofile.vercel.app/cases/basketbuzz"
+                    target="_blank" rel="noopener">
+                    <span class="tag-line">UX/UI-design · Frontend</span>
+                    <span class="num" aria-hidden="true">03</span>
+                    <h3>Basket Buzz</h3>
+                    <p class="sub2">Dagligvaremarkedsplads</p>
+                    <p>En selvinitieret e-handelsplatform med fokus på produktbrowsing, kurv og et enkelt, opgavedrevet
+                        checkout-flow.</p>
+                    <span class="more">Se case
+                        <span class="go" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+                                stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14M13 6l6 6-6 6" />
+                            </svg>
+                        </span>
+                    </span>
+                </a>
+
+                <a class="case reveal" href="https://digital-marketingprofile.vercel.app/cases/kidsaid" target="_blank"
+                    rel="noopener">
+                    <span class="tag-line">Enkeltsides design · Visuel identitet · SoMe</span>
+                    <span class="num" aria-hidden="true">04</span>
+                    <h3>KidsAid</h3>
+                    <p class="sub2">TrylleStjernerne-koncept</p>
+                    <p>Et digitalt koncept og en visuel identitet for KidsAid med fokus på storytelling, opmærksomhed og
+                        kommunikation til sponsorer.</p>
+                    <span class="more">Se case
+                        <span class="go" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+                                stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14M13 6l6 6-6 6" />
+                            </svg>
+                        </span>
+                    </span>
+                </a>
+
+            </div>
+        </section>
+
+
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
